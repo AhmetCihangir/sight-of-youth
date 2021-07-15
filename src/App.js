@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { Grid, makeStyles } from "@material-ui/core";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import About from "./components/About/About";
+import Departments from "./components/Departments/Departments";
+import Header from "./components/Header";
+import Projects from "./components/Projects/Projects";
+
+
+
+const useStyles = makeStyles(theme => ({
+  toolbar : theme.mixins.toolbar,
+
+}))
 
 function App() {
+  
+  const classes = useStyles()
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className={classes.toolbar} />
+
+      <Switch>
+        <Route path="/" exact>
+          <About />
+          <Departments />
+          <Projects />
+        </Route>
+      </Switch>
+      
+
+      
+    </>
   );
 }
 
