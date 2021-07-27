@@ -32,7 +32,7 @@ const Departments = () => {
     
     return (
         <>
-            <Grid container justify="space-evenly" style={{margin : "2rem 0"}} >
+            <Grid container justify="space-evenly" style={{margin : "7rem 0"}} >
                 {departments.map(dp => (
                     <Department dpName={dp.dpName} key={dp.dpName} dpDescription={dp.dpDescription} dpImage={dp.dpImage} />  
                 ))}

@@ -1,0 +1,27 @@
+[
+    { "id" : 0,"author" : "deneme 1", "date" : "21 Temmuz 2021" ,"title" : "deneme 1", "description" : "deniyoz lalalalalallallalalalalallala","srcImage" : "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80","amountOfLikes" : 0,"avatar" : "/svg/logosoy-2.svg", "comments" : [ 
+      { "author" : "Selam 1", "text" : "Lorem sıdhs sdhajsdn sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }, 
+      { "author" : "Selam 2", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "" }, 
+      { "author" : "Selam 3", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }
+    ] },
+    { "id" : 1,"author" : "deneme 1", "date" : "21 Temmuz 2021" ,"title" : "deneme 2", "description" : "deniyoz lalalalalallallalalalalallala","srcImage" : "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80","amountOfLikes" : 1,"avatar" : "", "comments" : [ 
+      { "author" : "Selam 1", "text" : "Lorem sıdhs sdhajsdn sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }, 
+      { "author" : "Selam 2", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "" }, 
+      { "author" : "Selam 3", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }
+    ] },
+    { "id" : 2,"author" : "deneme 1", "date" : "21 Temmuz 2021" ,"title" : "deneme 3", "description" : "deniyoz lalalalalallallalalalalallala","srcImage" : "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80","amountOfLikes" : 0,"avatar" : "/svg/logosoy-2.svg", "comments" : [ 
+      { "author" : "Selam 1", "text" : "Lorem sıdhs sdhajsdn sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }, 
+      { "author" : "Selam 2", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "" }, 
+      { "author" : "Selam 3", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }
+    ] },
+    { "id" : 3,"author" : "deneme 1", "date" : "21 Temmuz 2021" ,"title" : "deneme 4", "description" : "deniyoz lalalalalallallalalalalallala","srcImage" : "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80","amountOfLikes" : 1,"avatar" : "", "comments" : [ 
+      { "author" : "Selam 1", "text" : "Lorem sıdhs sdhajsdn sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }, 
+      { "author" : "Selam 2", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "" }, 
+      { "author" : "Selam 3", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }
+    ] },
+    { "id" : 4,"author" : "deneme 1", "date" : "21 Temmuz 2021" ,"title" : "deneme 5", "description" : "deniyoz lalalalalallallalalalalallala","srcImage" : "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80","amountOfLikes" : 2,"avatar" : "/svg/logosoy-2.svg", "comments" : [ 
+      { "author" : "Selam 1", "text" : "Lorem sıdhs sdhajsdn sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }, 
+      { "author" : "Selam 2", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd sakdjks sasd", "date" : "23 Temmuz 2021" , "avatar" : "" }, 
+      { "author" : "Selam 3", "text" : "Lorem sıdhs sdhajsdn asdjskdlaskd sjaksdmskd", "date" : "23 Temmuz 2021" , "avatar" : "/svg/logosoy-2.svg" }
+    ] }
+]

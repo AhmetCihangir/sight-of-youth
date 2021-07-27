@@ -17,7 +17,8 @@ const useStyles = makeStyles(theme => ({
         fontWeight : "600",
         fontSize : theme.spacing(2.3),
         textShadow : `.1rem .1rem #837c83`,
-        fontFamily : "'Bebas Neue', cursive;"
+        fontFamily : "'Bebas Neue', cursive;",
+        textDecoration : "none"
 
     },
     btns : {
@@ -41,13 +42,13 @@ const Header = () => {
                 {/* <img className={classes.image} src="/logosoy.png" alt="" /> */}
                 <Logo classes={classes.image} />
                 
-                <Typography variant="h6" style={{color : "#F9B5C0"}} className={`${classes.text} ${classes.root}`}> 
+                <Typography component={Link} to={"/"} variant="h6" style={{color : "#F9B5C0"}} className={`${classes.text} ${classes.root}`}> 
                     Sight Of Youth
                 </Typography>
                 <Button component={Link} to={"#about"} className={`${classes.text} ${classes.btns}`}> 
                     Bİz Kİmİz?
                 </Button>
-                <Button className={`${classes.text} ${classes.btns}`}> 
+                <Button component={Link} to={"/blogs"} className={`${classes.text} ${classes.btns}`}> 
                     Projelerİmİz
                 </Button>
                 <Button className={`${classes.text} ${classes.btns}`}> 

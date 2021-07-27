@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button, Grid,makeStyles,Typography,Divider } from "@material-ui/core"
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     mainSide : {
         backgroundColor : "#F9B5C0",
-        borderTopLeftRadius : "1rem",
-        borderTopRightRadius : "1rem",
+        borderRadius : "1rem",
     },
     titleStyles : {
         fontSize : theme.spacing(4),
@@ -16,9 +16,13 @@ const useStyles = makeStyles(theme => ({
     },
     btnStyle : {
         backgroundColor :"rgba(233, 6, 137, 1)",
-
+        "&:hover" : {
+            backgroundColor :"rgba(233, 6, 137, 0.7)",
+        }
     }
 }))
+
+
 
 
 
@@ -30,7 +34,7 @@ const Projects = () => {
         <Grid container id="blog" justify="space-around" className={classes.mainSide} >
             <Grid container item xs={8}>
 
-                <Grid item xs={12} style={{marginTop : "4.5rem"}} justify="center">
+                <Grid container item xs={12} style={{marginTop : "4.5rem"}} justify="center">
                     <Typography variant="h2" className={classes.titleStyles}  >
                         Şimdiye Kadar Yaptığımız Çalışmaları Görmek İster Misiniz?
                     </Typography>
@@ -43,7 +47,7 @@ const Projects = () => {
 
 
                     <Grid item xs={4}>
-                        <Button variant="contained" className={classes.btnStyle}>
+                        <Button component={Link} to={"/blogs"} variant="contained" className={classes.btnStyle}>
                             Blogumuz <ArrowForwardIosIcon />
                         </Button>
                     </Grid>
