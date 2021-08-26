@@ -20,7 +20,6 @@ const useStyles = makeStyles(theme => ({
         fontWeight : "600",
         fontSize : theme.spacing(2.1),
         textShadow : `.05rem .05rem #837c83`,
-        fontFamily : "'Bebas Neue', cursive;",
         textDecoration : "none",
         [theme.breakpoints.down("sm")]: {
             fontSize : theme.spacing(1.6),
