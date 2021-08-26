@@ -11,7 +11,6 @@ const useStyles = makeStyles(theme => ({
     titleStyles : {
         fontSize : theme.spacing(4),
         fontWeight : 100,
-        fontFamily : "'Bebas Neue', cursive;",
         [theme.breakpoints.down("sm")]: {
             fontSize : theme.spacing(3)
         },
