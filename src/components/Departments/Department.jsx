@@ -7,11 +7,9 @@ const useStyles = makeStyles(theme => ({
     },
     headerFont : {
         fontSize : theme.spacing(2.5),
-        fontFamily : "'Bebas Neue', cursive;",
     },
     textFont : {
         fontSize : theme.spacing(2),
-        fontFamily : "'Bebas Neue', cursive;",
         fontWeight : "light"
     },
     imgStyles : {
