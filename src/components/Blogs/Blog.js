@@ -120,11 +120,11 @@ const Blog = ({ author,date,avatar,srcImage,title,description,amountOfLikes,comm
     }
 
     useEffect(()=>{
-        if(user.logged){
-            setLoaded(blog.likedProfiles.includes(user.id))
-            setLike(blog.likedProfiles.includes(user.id))
-        }
-    },[user,blog])
+      if(user.logged){
+        setLoaded(blogLikedProfile.includes(user.id))
+        setLike(blogLikedProfile.includes(user.id))
+      }
+    },[user,blogLikedProfile])
 
     return (
       <Grid container item xs={12} className={classes.gridSpacing}>
