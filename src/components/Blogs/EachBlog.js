@@ -117,11 +117,11 @@ const EachBlog = () => {
     }
 
     useEffect(()=>{
-      if(user.logged){
-        setLoaded(blogLikedProfile.includes(user.id))
-        setLike(blogLikedProfile.includes(user.id))
-      }
-    },[user,blogLikedProfile])
+        if(user.logged){
+            setLoaded(blog.likedProfiles.includes(user.id))
+            setLike(blog.likedProfiles.includes(user.id))
+        }
+    },[user,blog])
     
     return (
         <>  
