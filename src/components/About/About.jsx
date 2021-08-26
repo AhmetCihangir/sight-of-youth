@@ -25,7 +25,6 @@ const useStyles = makeStyles(theme => ({
     textStyles : {
         color : "#000000",
         fontSize : theme.typography.h4.fontSize,
-        fontFamily : "'Bebas Neue', cursive;",
         [theme.breakpoints.down("sm")]: {
             fontSize : theme.typography.h5.fontSize
         },
@@ -35,7 +34,6 @@ const useStyles = makeStyles(theme => ({
     },
     altTextStyles : {
         fontSize : theme.typography.h6.fontSize,
-        fontFamily : "'Bebas Neue', cursive;",
         [theme.breakpoints.down("sm")]: {
             fontSize : "1rem"
         },
