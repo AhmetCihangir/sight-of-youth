@@ -119,12 +119,10 @@ const Blog = ({ author,date,avatar,srcImage,title,description,amountOfLikes,comm
       dispatch(addComment({ author : user.name, text : value ,  date : time , avatar : user.avatar },id))
     }
 
-    useEffect(() => {
-      if(user.logged){
-        setLoaded(blogLikedProfile.includes(user.id))
-        setLike(blogLikedProfile.includes(user.id))
-      }
-    },[user.logged])
+     if(user.logged){
+       setLoaded(blogLikedProfile.includes(user.id))
+       setLike(blogLikedProfile.includes(user.id))
+     }
 
     return (
       <Grid container item xs={12} className={classes.gridSpacing}>
