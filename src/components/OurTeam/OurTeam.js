@@ -15,7 +15,7 @@ const team = [
         "Azra Aydemir","Beyza Özdemir","Pınar Gündüz","Uygar Çatal"
     ]},
     {team : halkIleIlişkiler, members : [
-      "Zeynep Acar","Duru Gülsüm","Eylül Özten","Meliha Aydan Yücel","Melis Keskin","Nehir Nida Arslan"
+      "Zeynep Acar","Aylin Karabulut","Duru Gülsüm","Eylül Özten","Meliha Aydan Yücel","Melis Keskin","Nehir Nida Arslan"
     ]},
 ]
 
