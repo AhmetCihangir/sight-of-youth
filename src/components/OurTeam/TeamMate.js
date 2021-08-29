@@ -61,7 +61,7 @@ const TeamMate = ({m,}) => {
           onTouchStart={() => setHover(true)}
           onTouchEnd={() => setHover(false)}
         >
-          <Typography variant="h6" className={styles.nameStyles} >{m}</Typography>
+          <Typography variant="h6" className={styles.nameStyles} >{m.name}</Typography>
         </div>
       </ReactCardFlip>
     );
