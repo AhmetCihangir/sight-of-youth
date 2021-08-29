@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
 
   },
   profileTextStyles : {
+    fontSize : "1.5rem",
     [theme.breakpoints.down("sm")]: {
       fontSize : "1.25rem"
     },
