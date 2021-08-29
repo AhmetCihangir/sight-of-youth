@@ -46,7 +46,12 @@ const TeamMate = ({m,}) => {
           onTouchStart={() => setHover(true)}
           onTouchEnd={() => setHover(false)}
         >
-          <Avatar style={{ width: "100%", height: "100%"}}>XY</Avatar>
+          {m.name === m.src ? (
+            <Avatar style={{ width: "100%", height: "100%"}}> {m.name} </Avatar>
+            ) : (
+              
+              <Avatar style={{ width: "100%", height: "100%"}}  imgProps={{loading : "lazy"}} src={m.src} />
+          )}
         </div>
 
         <div
