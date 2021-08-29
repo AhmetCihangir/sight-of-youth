@@ -35,12 +35,13 @@ const useStyles = makeStyles((theme) => ({
     height : theme.spacing(2.2),
 
   },
-  weeklyNewsStyles : {
-    backgroundColor : "rgba(189,189,189,0.4)",
-    borderRadius : ".7rem",
-    boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
-    backdropFilter: "blur( 20.0px )",
-    maxHeight : "20.5rem"
+  profileTextStyles : {
+    [theme.breakpoints.down("sm")]: {
+      fontSize : "1.25rem"
+    },
+    [theme.breakpoints.down("xs")]: {
+      fontSize : "1rem"
+    },
   }
 }));
 
@@ -75,7 +76,7 @@ const Blogs = () => {
               </Grid>
 
               <Grid container item style={{height : "7rem" ,marginTop : 0 }} justify="center">
-                <Typography variant="h5">
+                <Typography variant="h5" className={classes.profileTextStyles}>
                   {user.logged ? user.name : "Yorum yapmak ve beğenmek için giriş yapın"}
                 </Typography>
               </Grid>
@@ -106,7 +107,7 @@ const Blogs = () => {
               </Grid>
 
               <Grid container item style={{height : "7rem" ,marginTop : 0 }} justify="center">
-                <Typography variant="h5" >
+                <Typography variant="h5" className={classes.profileTextStyles} >
                   {user.logged ? user.name : "Yorum yapmak ve beğenmek için giriş yapın"}
                 </Typography>
               </Grid>
