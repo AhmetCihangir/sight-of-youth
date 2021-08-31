@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
 const UpdatePost = ({update = false}) => {
 
     const params = useParams()
-    const blog = useSelector( state => state.posts.filter(b => parseInt(b.id) === parseInt(params.id))[0] )
+    const blog = useSelector( state => state.posts.filter(b => b.id === params.id)[0] )
     const styles = useStyles()
 
 
