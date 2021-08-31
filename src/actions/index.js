@@ -17,7 +17,7 @@ export const addComment = (comment,postId) => async (dispatch) => {
   try {
     const { data } = await api.addCommentPost(postId,comment);
 
-    dispatch({ type: "ADD_COMMENT", payload: { id : parseInt(postId), comment : data } });
+    dispatch({ type: "ADD_COMMENT", payload: { id : postId, comment : data } });
   } catch (error) {
     console.log(error.message);
   }
