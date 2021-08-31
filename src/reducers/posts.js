@@ -32,12 +32,12 @@ const postss = (posts = blogs, action) => {
       case "FETCH_ALL":
         return action.payload;
       case "LIKE":
-        const blog = posts.filter(p => parseInt(p.id) === parseInt(action.payload.id))[0]
+        const blog = posts.filter(p => p.id === action.payload.id)[0]
 
         if(blog.likedProfiles.includes(action.payload.profileId)){
           if(action.payload.lnumber === -1){
             blog.amountOfLikes = blog.amountOfLikes + action.payload.lnumber
-            blog.likedProfiles = blog.likedProfiles.filter(id => parseInt(id) !== parseInt(action.payload.profileId))
+            blog.likedProfiles = blog.likedProfiles.filter(id => id !== action.payload.profileId)
           }
 
           return posts
