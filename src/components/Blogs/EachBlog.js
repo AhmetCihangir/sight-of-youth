@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
 
 const EachBlog = () => {
     const { id } = useParams()
-    const blog = useSelector( state => state.posts.filter(b => parseInt(b.id) === parseInt(id))[0] )
+    const blog = useSelector( state => state.posts.filter(b => b.id === id)[0] )
     const user = useSelector(state => state.users)
 
     const classes = useStyles()
