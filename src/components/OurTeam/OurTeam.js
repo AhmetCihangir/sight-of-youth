@@ -12,7 +12,7 @@ const team = [
       { name : "Beyza Özdemir", src : "/pp/Beyza.jpg" },{ name : "Zehra Aygür", src : "/pp/Zehra.jpg" },{ name : "Sinem Ünlü", src : "/pp/Sinem.jpg" },{ name : "Yusuf Çuhadar", src : "Yusuf Çuhadar" },{ name : "A.Cihangir Gündoğdu", src : "/pp/Ahmet.jpg" }
     ]},
     {team : sosyalMedya, members : [
-      { name : "Azra Aydemir", src : "/pp/Azra.png" },{ name : "Beyza Özdemir", src : "/pp/Beyza.jpg" },{ name : "Pınar Gündüz", src : "/pp/Pinar.jpg" },{ name : "Uygar Çatal", src : "/pp/Uygar.jpg" }
+      { name : "Azra Aydemir", src : "/pp/Azra.png" },{ name : "Uygar Çatal", src : "/pp/Uygar.jpg" },{ name : "Beyza Özdemir", src : "/pp/Beyza.jpg" },{ name : "Pınar Gündüz", src : "/pp/Pinar.jpg" }
     ]},
     {team : halkIleIlişkiler, members : [
       { name : "Zeynep Acar", src : "/pp/Zeynep.jpg" },{ name : "Aylin Karabulut", src : "/pp/Aylin.jpg" },{ name : "Duru Gülsüm", src : "/pp/Duru.jpg" },{ name : "Eylül Özten", src : "/pp/Eylul.jpg" },{ name : "Meliha Aydan Yücel", src : "/pp/Meliha.jpg" },{ name : "Melis Keskin", src : "Melis Keskin" },{ name : "Nehir Nida Arslan", src : "/pp/Nehir.jpg" }
