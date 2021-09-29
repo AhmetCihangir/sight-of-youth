@@ -26,9 +26,32 @@ const useStyles = makeStyles(theme => ({
         fontSize : "1rem"
       }
     },
+    managerStyles : {
+      width : 200,
+      position : "absolute",
+      top : 10,
+      [theme.breakpoints.down("sm")]: {
+          width : 150,
+          top : 5
+      },
+      [theme.breakpoints.down("xs")]: {
+          width : 100,
+          top : 0
+      }
+    },
+    managerTextStyles : {
+      fontSize : 20,
+      [theme.breakpoints.down("sm")]: {
+        fontSize : 15
+      },
+      [theme.breakpoints.down("xs")]: {
+        fontSize : 10
+
+      }
+      } 
 }))
 
-const TeamMate = ({m,}) => {
+const TeamMate = ({m}) => {
     const [hover, setHover] = useState(false)
     const styles = useStyles()
 
@@ -55,12 +78,19 @@ const TeamMate = ({m,}) => {
         </div>
 
         <div
-          style={{ width: "100%", height: "100%", backgroundColor: "#F9B5C0",display : "flex",alignContent : "center",justifyContent : "center",borderRadius : "28px" }}
+          style={{ width: "100%", height: "100%", backgroundColor: "#F9B5C0",display : "flex",alignContent : "center",justifyContent : "center",borderRadius : "28px",position : "relative" }}
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
           onTouchStart={() => setHover(true)}
           onTouchEnd={() => setHover(false)}
         >
+          {m.manager && (
+            <div className={styles.managerStyles}>
+              <Typography variant="h6" className={styles.managerTextStyles}  style={{textAlign : "center"}}>Yönetici</Typography>
+              <div style={{height : 1.5,width : "75%", backgroundColor : "gray", marginLeft : "auto", marginRight : "auto"}} />
+            </div>
+                  
+          )}
           <Typography variant="h6" className={styles.nameStyles} >{m.name}</Typography>
         </div>
       </ReactCardFlip>
